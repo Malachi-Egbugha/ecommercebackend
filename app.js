@@ -33,7 +33,7 @@ app.use("/api",userRoutes);
 app.use("/api",categoryRoutes);
 app.use("/api",productRoutes);
 app.use(errorHandler);
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 8080
  app.listen(port, () => {
      console.log(`Server is running on port ${port} `);
  })
